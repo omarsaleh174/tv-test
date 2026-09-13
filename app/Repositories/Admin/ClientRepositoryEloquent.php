@@ -1,0 +1,38 @@
+<?php
+
+namespace App\Repositories\Admin;
+
+use Prettus\Repository\Eloquent\BaseRepository;
+use Prettus\Repository\Criteria\RequestCriteria;
+use App\Repositories\Admin\ClientRepository;
+use App\Entities\Admin\Client;
+use App\Validators\Admin\ClientValidator;
+
+/**
+ * Class ClientRepositoryEloquent.
+ *
+ * @package namespace App\Repositories\Admin;
+ */
+class ClientRepositoryEloquent extends BaseRepository implements ClientRepository
+{
+    /**
+     * Specify Model class name
+     *
+     * @return string
+     */
+    public function model()
+    {
+        return Client::class;
+    }
+
+    
+
+    /**
+     * Boot up the repository, pushing criteria
+     */
+    public function boot()
+    {
+        $this->pushCriteria(app(RequestCriteria::class));
+    }
+    
+}

@@ -1,0 +1,90 @@
+const mix = require('laravel-mix');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
+mix.js('resources/js/app.js', 'public/js')
+   .sass('resources/sass/app.scss', 'public/css')
+   .css('resources/css/app.css', 'public/css');
+
+// Add all your JS files
+const jsFiles = [
+    'advancedform',
+    'apexcharts',
+    'chart',
+    'charts',
+    'color-change',
+    'construction',
+    'crypto-datatable',
+    'custom-switcher',
+    'custom',
+    'datatable',
+    'echarts',
+    'flot',
+    'form-elements',
+    'form-validation',
+    'formeditor',
+    'fullcalendar-rtl',
+    'fullcalendar',
+    'handlecounter',
+    'index',
+    'index1',
+    'index2',
+    'index3',
+    'index4',
+    'index5',
+    'jvectormap',
+    'landing',
+    'left-menu',
+    'map-leafleft',
+    'mapelmaps',
+    'modal',
+    'morris',
+    'nvd3',
+    'owl-carousel',
+    'picker',
+    'popover',
+    'range',
+    'select2',
+    'sticky',
+    'stiky',
+    'summernote',
+    'sweet-alert',
+    'table-data',
+    'themeColors',
+    'tooltip',
+    'typehead',
+    'widget',
+    'switcher/js/switcher'
+];
+
+jsFiles.forEach(file => {
+    mix.js(`resources/assets/js/${file}.js`, 'public/assets/js');
+});
+
+mix.webpackConfig({
+    plugins: [
+        new CopyWebpackPlugin({
+            patterns: [
+                { from: 'resources/assets/images', to: 'public/assets/images' },
+                { from: 'resources/assets/plugins', to: 'public/assets/plugins' },
+                { from: 'resources/assets/iconfonts', to: 'public/assets/iconfonts' },
+                { from: 'resources/assets/js/form-wizard.js', to: 'public/assets/js' }
+            ]
+        })
+    ],
+    // Add any other necessary configuration here
+});
+
+// Enable versioning in production
+if (mix.inProduction()) {
+    mix.version();
+}
+
+// Enable live reload
+mix.browserSync({
+    proxy: 'your-local-dev-url.test',
+    files: [
+        'resources/views/**/*.blade.php',
+        'public/assets/js/**/*.js',
+        'public/css/**/*.css',
+    ]
+});

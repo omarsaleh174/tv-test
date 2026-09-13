@@ -1,0 +1,23 @@
+{
+  "hero_home_page": "hero-bg.jpg",
+  "about_home_page": "about_home_page.png",
+  "features": "features-bg.jpg",
+  "cta": "cta-bg.jpg",
+  "testimonials_home_page": "testimonials-bg.jpg",
+
+  "banner_home_page": "banner_home_page.png",
+  "banner_home_page_1": "banner_home_page_1",
+  "banner_home_page_2": "banner_home_page_2",
+  "banner_home_page_3": "banner_home_page_3",
+  "banner_home_page_4": "banner_home_page_4",
+  "banner_home_page_5": "banner_home_page_5",
+  "banner_home_page_6": "banner_home_page_6",
+  "banner_home_page_7": "banner_home_page_7",
+
+  "banner_link_1": "#",
+  "banner_link_2": "#",
+  "banner_link_3": "#",
+  "banner_link_4": "#",
+  "banner_link_5": "#",
+  "banner_link_6": "#"
+}

@@ -1,0 +1,68 @@
+<?php
+
+$NAMESPACE$
+
+use Illuminate\Http\Request;
+
+use $APPNAME$Http\Requests;
+use $APPNAME$Http\Requests\$CLASS$Request;
+$REPOSITORY$
+use App\Http\Controllers\Controller;
+
+use Yajra\DataTables\DataTables;
+
+class $CONTROLLER$Controller extends Controller
+{
+
+    protected $repository;
+
+
+
+    public function __construct($CLASS$Repository $repository)
+    {
+        $this->repository = $repository;
+    }
+
+    public function index()
+    {
+        if(request()->wantsJson()) {
+            $item = $this->repository->getQuery();
+            return Datatables::of($item)->addColumn('action',function($item)
+            { return action_form($item,'$PLURAL$','$PLURAL$',$this->actions);})->toJson();
+        }
+        return view('admin.$PLURAL$.index', );
+    }
+
+    public function store($CLASS$Request $request)
+    {
+        $$SINGULAR$ = $this->repository->create($request->all());
+        return redirect()->back()->with('message', '$CLASS$ created.');
+    }
+
+    public function show($id)
+    {
+        $$SINGULAR$ = $this->repository->find($id);
+        return view('$PLURAL$.show', compact('$SINGULAR$'));
+    }
+
+
+    public function edit($id)
+    {
+        $$SINGULAR$ = $this->repository->find($id);
+        return view('$PLURAL$.edit', compact('$SINGULAR$'));
+    }
+
+
+    public function update($CLASS$Request $request, $id)
+    {
+        $$SINGULAR$ = $this->repository->update($request->all(), $id);
+        return redirect()->back()->with('message', '$CLASS$ updated.');
+    }
+
+
+    public function destroy($id)
+    {
+        $deleted = $this->repository->delete($id);
+        return redirect()->back()->with('message', '$CLASS$ deleted.');
+    }
+}
