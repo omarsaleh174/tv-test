@@ -11,7 +11,7 @@
                 <div class="row mb-3">
                     <div class="col-md-4">
                         <select id="sectionFilter" class="form-control">
-                            <option value="">Ø§Ø®ØªØ§Ø± Ø§Ù„Ø³ÙƒØ´Ù†</option>
+                            <option value="">اختر القسم</option>
                             <option value="hero">Hero</option>
                             <option value="about">About</option>
                             <option value="features">Features</option>

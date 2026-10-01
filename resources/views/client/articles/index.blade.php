@@ -16,7 +16,6 @@
             color: #fff;
         }
 
-        /* ØªØ­Ø³ÙŠÙ† Ù…Ø¸Ù‡Ø± "Ø£Ø­Ø¯Ø« Ø§Ù„Ù…Ù‚Ø§Ù„Ø§Øª" */
         .latest-articles {
             background-color: #f8f9fa;
             padding: 15px;
@@ -40,7 +39,6 @@
             background-color: #f1f1f1;
         }
 
-        /* ØªØ®ØµÙŠØµ Ø§Ù„Ø¨Ø·Ø§Ù‚Ø§Øª */
         .card {
             border: none;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -75,7 +73,6 @@
             font-weight: bold;
         }
 
-        /* ØªØ®ØµÙŠØµ Ø§Ù„ÙÙ„Ø§ØªØ± */
         .form-select {
             border-radius: 10px;
             padding: 10px;
@@ -89,7 +86,6 @@
             box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.25);
         }
 
-        /* ØªØ­Ø³ÙŠÙ† Ø§Ù„ØªÙ†Ù‚Ù„ Ø¨ÙŠÙ† Ø§Ù„ØµÙØ­Ø§Øª (pagination) */
         .pagination {
             justify-content: center;
             margin-top: 30px;

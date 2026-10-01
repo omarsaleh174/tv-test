@@ -133,7 +133,7 @@
             },
             error: function(xhr, status, error) {
                 console.error(error);
-                alert("Ø­Ø¯Ø« Ø®Ø·Ø£ Ø£Ø«Ù†Ø§Ø¡ ØªØ­Ù…ÙŠÙ„ Ø§Ù„ØªÙ†Ø¯Ø±Ø§Øª.");
+                alert("حدث خطأ أثناء تحميل التندرات.");
                 isRequestInProgress = false; // Reset flag if there is an error
             }
         });

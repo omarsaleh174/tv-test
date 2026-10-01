@@ -63,7 +63,7 @@
         @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
             @if($localeCode!=app()->getLocale())
             <li class="nav-item">
-                <a style="margin-left:6px;background: none; color: inherit; border: none; font: inherit; cursor: pointer; outline: inherit" rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">{{ app()->getLocale()=="ar"?"English":"Ø§Ù„Ù„ØºØ© Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©" }}</a></li>
+                <a style="margin-left:6px;background: none; color: inherit; border: none; font: inherit; cursor: pointer; outline: inherit" rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">{{ app()->getLocale()=="ar" ? "English" : "اللغة العربية" }}</a></li>
             @endif
         @endforeach
     </ul>

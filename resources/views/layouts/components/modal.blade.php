@@ -21,7 +21,7 @@
 	
 						<li class="col-lg-6 mb-2">
 							<a href="{{ \LaravelLocalization::getLocalizedURL('ar')}}"   class="btn btn-country btn-lg btn-block">
-								<span class="country-selector"><img alt=""src="{{asset('build/assets/images/flags/1.jpg')}}"class="me-3 language"></span>Ø§Ù„Ù„ÙØ© Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©
+								<span class="country-selector"><img alt="" src="{{ asset('build/assets/images/flags/1.jpg') }}" class="me-3 language"></span> اللغة العربية
 							</a>
 						</li>
 	

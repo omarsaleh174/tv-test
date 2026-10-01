@@ -21,7 +21,7 @@
                  "{{$data['password']}}"
                   please login and change your password
                 <br>
-                Thanks! â€“ {{ config('app.name') }}
+                Thanks! – {{ config('app.name') }}
             </h5>
         </div>
 

@@ -5,12 +5,12 @@
      .select2-container .select2-selection--multiple { min-width: 100% ; height: 60px ; }
      
              .select2-container .select2-selection--multiple {
-            overflow: hidden; /* Ù…Ù†Ø¹ Ø§Ù„Ø¹Ù†Ø§ØµØ± Ù…Ù† Ø§Ù„Ø®Ø±ÙˆØ¬ */
+            overflow: hidden; 
         }
         
         .select2-container .select2-selection__choice {
-            font-size: 14px; /* Ø¶Ø¨Ø· Ø­Ø¬Ù… Ø§Ù„Ø®Ø· */
-            margin-top: 5px; /* Ù…Ø³Ø§ÙØ© Ø¨ÙŠÙ† Ø§Ù„Ø¹Ù†Ø§ØµØ± */
+            font-size: 14px; 
+            margin-top: 5px; 
             margin-right: 5px;
         }
 
@@ -221,7 +221,7 @@
                                 <h5 class="card-title">
                                     {{$tender->title}}  
                                     <span class="badge {{ $tender->approved_by == null ? 'bg-warning' : 'bg-success' }} text-white">
-                                        {{ $tender->approved_by == null ?   'Ø¬Ø§Ø±ÙŠ Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø©' :'ØªÙ…Øª Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø©'}}
+                                        {{ $tender->approved_by == null ? 'جاري الموافقة' : 'تمت الموافقة' }}
                                     </span>
                                 </h5>
                                                               <p class="card-text">

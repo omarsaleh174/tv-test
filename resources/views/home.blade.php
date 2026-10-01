@@ -13,7 +13,6 @@
 </div>
 
 <div class="row">
-    <!-- Ø¹Ø¯Ø¯ Ø§Ù„Ø¹Ù…Ù„Ø§Ø¡ -->
     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
         <div class="card bg-primary img-card box-primary-shadow">
             <div class="card-body">
@@ -28,7 +27,6 @@
         </div>
     </div>
     
-    <!-- Ø¹Ø¯Ø¯ Ø§Ù„Ù…Ø³ØªØ´Ø§Ø±ÙŠÙ† -->
     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
         <div class="card bg-secondary img-card box-secondary-shadow">
             <div class="card-body">
@@ -43,7 +41,6 @@
         </div>
     </div>
 
-    <!-- Ø¹Ø¯Ø¯ Ø§Ù„Ø£Ù‚Ø³Ø§Ù… -->
     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
         <div class="card bg-success img-card box-success-shadow">
             <div class="card-body">
@@ -58,7 +55,6 @@
         </div>
     </div>
 
-    <!-- Ø¹Ø¯Ø¯ Ø§Ù„Ù…Ù†Ø§Ù‚ØµØ§Øª -->
     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
         <div class="card bg-info img-card box-info-shadow">
             <div class="card-body">
@@ -74,9 +70,7 @@
     </div>
 </div>
 
-<!-- Ø¥Ø­ØµØ§Ø¦ÙŠØ§Øª Ø¥Ø¶Ø§ÙÙŠØ© -->
 <div class="row">
-    <!-- Ø¢Ø®Ø± 6 Ø¹Ù…Ù„Ø§Ø¡ -->
     <div class="col-md-12 col-lg-12 col-xl-6">
         <div class="card">
             <div class="card-header">
@@ -107,7 +101,6 @@
         </div>
     </div>
 
-    <!-- Ø¢Ø®Ø± 6 Ù…Ø³ØªØ´Ø§Ø±ÙŠÙ† -->
     <div class="col-md-12 col-lg-12 col-xl-6">
         <div class="card">
             <div class="card-header">
@@ -139,7 +132,6 @@
     </div>
 </div>
 
-<!-- Ø¢Ø®Ø± 6 Ù…Ù†Ø§Ù‚ØµØ§Øª -->
 <div class="row">
     <div class="col-md-12 col-lg-12 col-xl-6">
         <div class="card">

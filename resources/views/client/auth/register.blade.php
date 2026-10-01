@@ -176,7 +176,7 @@
                             <ul id="error-list"></ul>
                         </div>
                         <div id="success-message" class="alert alert-success d-none">
-                            <p>ØªÙ… Ø§Ù†Ø´Ø§Ø¡ Ø­Ø³Ø§Ø¨ Ø¨Ù†Ø¬Ø§Ø­</p>
+                            <p>تم إنشاء حساب بنجاح</p>
                         </div>
 
                     </div>

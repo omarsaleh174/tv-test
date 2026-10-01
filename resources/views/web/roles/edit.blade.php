@@ -12,7 +12,7 @@
                 @csrf
                 @method('put')
                 <div class="form-group">
-                    <!-- Ø§Ø³Ù… Ø§Ù„Ø¯ÙˆØ± -->
+                    
                     <div class="col-12 mb-4">
                         <label for="name">{{ trans('cruds.name') }}</label>
                         <input type="text" value="{{ $role->name }}" class="form-control" name="name" placeholder="{{ trans('cruds.name') }}" id="name">
@@ -21,7 +21,7 @@
                         @enderror
                     </div>
             
-                    <!-- Ø§Ù„ØµÙ„Ø§Ø­ÙŠØ§Øª -->
+                    
                     <div class="form-group mb-4">
                         <label>{{ trans('cruds.permissions') }}</label>
                         <div class="col-12">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             
-                <!-- Ø²Ø± Ø§Ù„Ø¥Ø±Ø³Ø§Ù„ -->
+                
                 <div class="card-footer">
                     <button type="submit" class="btn btn-primary">{{ trans('cruds.submit') }}</button>
                 </div>

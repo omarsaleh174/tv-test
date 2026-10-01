@@ -20,7 +20,7 @@
                 We just need to verify your email address before you can access your account.
                 your verification code is {{ $data['code'] }}
                 <br>
-                Thanks! â€“  tv-adviser App 
+                Thanks! - tv-adviser App
             </h5>
         </div>
 

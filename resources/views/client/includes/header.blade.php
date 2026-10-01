@@ -44,7 +44,6 @@
   <link href="{{asset('home/assets/css/main.css')}}" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-LLZPWPK2GJ"></script>
 <style>
-/* ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„ØµÙˆØ±Ø© */
 .logo-img {
   margin-right:0;
   max-height: 40px;          
@@ -57,7 +56,6 @@
   margin-left: 20px;         
 }
 
-/* ØªØ£Ø«ÙŠØ± Ø§Ù„ØªÙ…Ø±ÙŠØ± Ø¹Ù„Ù‰ Ø§Ù„ØµÙˆØ±Ø© */
 .logo-img:hover {
   transform: scale(1.05);     
 }

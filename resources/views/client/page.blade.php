@@ -115,28 +115,28 @@
             <div class="col-xl-3 col-md-6">
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-easel"></i></div>
-                <h4 class="title"><a href="" class="stretched-link">Ø§ÙØ¶Ù„ Ø§Ù„Ù…Ù†Ø§Ù‚ØµØ§Øª</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">أفضل المناقصات</a></h4>
               </div>
             </div>
             
             <div class="col-xl-3 col-md-6">
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-gem"></i></div>
-                <h4 class="title"><a href="" class="stretched-link">Ø§ÙØ¶Ù„ Ø§Ù„Ù…Ø³ØªØ´Ø§Ø±ÙŠÙ†</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">أفضل المستشارين</a></h4>
               </div>
             </div>
             
             <div class="col-xl-3 col-md-6">
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-geo-alt"></i></div>
-                <h4 class="title"><a href="" class="stretched-link">ÙƒÙ„ Ø§Ù„Ù…Ø²Ø§ÙŠØ¯Ø§Øª</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">كل المزايدين</a></h4>
               </div>
             </div>
             
             <div class="col-xl-3 col-md-6">
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-command"></i></div>
-                <h4 class="title"><a href="" class="stretched-link">Ø§Ù†Øª Ù…Ø¹Ù†Ø§ ÙƒØ³Ø¨Ø§Ù†</a></h4>
+                <h4 class="title"><a href="" class="stretched-link">أفضل المزايدين</a></h4>
               </div>
             </div>
             
@@ -417,11 +417,14 @@
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
 
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Ù†Ù‚Ø¯Ù… Ù„Ùƒ Ø§ÙØ¶Ù„ Ø§Ù„Ù…Ø³Ø´Ø§Ø±ÙŠÙ†</h2>
-        <p>Ù…ÙˆÙ‚Ø¹Ù†Ø§ ÙŠÙ‚Ø¯Ù… Ù„Ùƒ Ø£Ø­Ø¯Ø« Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø¹Ù† Ø£Ø¨Ø±Ø² ÙˆØ£Ù‡Ù… Ø§Ù„Ù…Ø³ØªØ´Ø§Ø±ÙŠÙ† ÙÙŠ Ù…Ø®ØªÙ„Ù Ø§Ù„Ù…Ø¬Ø§Ù„Ø§ØªØŒ Ù„ÙŠÙƒÙˆÙ† Ø¯Ù„ÙŠÙ„Ùƒ Ø§Ù„Ø£Ù…Ø«Ù„ Ù„Ø§Ø®ØªÙŠØ§Ø±
-            Ø§Ù„Ø£ÙØ¶Ù„.</p>
-      </div>
+     <div class="container section-title" data-aos="fade-up">
+    <h2>نقدم لك أفضل المستشارين</h2>
+
+    <p>
+        موقعنا يقدم لك أحدث المعلومات عن أبرز وأهم المستشارين في مختلف المجالات，
+        ليكون دليلك الأمثل لاختيار الأفضل.
+    </p>
+</div>
       
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -1044,7 +1047,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>Â© <span>Copyright</span> <strong class="px-1 sitename">{{getSettingValue('name')}}</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">{{ getSettingValue('name') }}</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
